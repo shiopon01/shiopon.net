@@ -1,10 +1,18 @@
-<div class="remove-container container-block">
+<div class="contact-container container-block">
   <h2 class="container-block-title">
-    About Theme
+      Other links
   </h2>
-  <ul class="list-unstyled interests-list">
-    <a target="_blank" href="https://www.youtube.com/watch?v=Jnmj1dXDbNk">
-      <li>How to use?</li>
-    </a>
-  </ul>
-</div><!--//About-->
+
+  {% assign other-links = site.data.data.sidebar.other-links %}
+  {% if other-links %}
+    <ul class="list-unstyled contact-list">
+      {% for other in other-links %}
+        <li>
+          <i class="{{ other.icon }}"></i>
+          <a href="{{ other.link }}" target="_blank">{{ other.item }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
+

@@ -1,199 +1,158 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Shion Ueda
+  tagline: Software Developer
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+  # Sidebar links
+  email: shio.0323@gmail.com
+  phone:
+  website: shiopon.net
+  linkedin: shion-ueda-613743156
+  facebook: shiopon.ueda
+  github: shiopon01
+  gitlab:
+  bitbucket:
+  twitter: '@shiopon01'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
 
-    languages:
-      - idiom: English
-        level: Native
+  languages:
+  - idiom: Japanese
+    level: Native
+  - idiom: English
+    level: 3 year old child level
 
-      - idiom: French
-        level: Professional
+  interests:
+  - item: 睡眠
+  - item: ビデオゲーム
+  - item: 音楽ゲーム（IIDX、SDVX）
+  - item: プログラミング
+  - item: 環境構築
+  - item: 映像制作
+  - item: イラスト制作
 
-      - idiom: Spanish
-        level: Professional
-        
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+  other-links:
+  - item: Amazon ほしい物リスト
+    link: https://amzn.asia/2FclW18
+    icon: fab fa-amazon
+  - item: Patreon
+    link:
+    icon: fab fa-patreon
+  - item: ブログ
+    link: https://shiopon.hatenablog.jp
+    icon: fas fa-newspaper
+  - item: Steam
+    link: https://steamcommunity.com/id/shiopon01
+    icon: fab fa-steam
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+  title: Career Profile
+  summary: |
+    1995年大阪府大阪市生まれ。2017年3月に大阪情報コンピュータ専門学校総合情報メディア学科ネットワークセキュリティ専攻（4年制）を卒業後、2017年に株式会社ブリリアントサービスに入社。
 
-      Second paragraph if required.
+    会社ではWebアプリケーション作成を中心とした様々な企業からの請負案件に携わり、同時にAWS上でのインフラの設計・構築等も担いました。また、エンジニアが働きやすい環境と社内環境の改善を目指し、積極的な上長への相談・提案を普段から行っています。
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
+- degree: 高度専門士
+  university: 大阪情報コンピュータ専門学校
+  time: Apr 2013 - Mar 2017
+  details:
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+  intro: >
+    降順に並びます。
 
-          - Bullet point
-          - Bullet point 
+  assignments:
+  - role: Software Enginner
+    time: Jan 2019 - Present
+    company: Cognizant Japan KK., Japan
+    link: https://www.cognizant.com/ja-jp
+    details: |
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+  - role: Software Enginner
+    time: Apr 2017 - Dec 2018
+    company: BrilliantService CO.,LTD., Japan
+    link: http://www.brilliantservice.co.jp
+    details: |
+      サーバーチームの一員として商用アプリ、大規模イベント用アプリ、他にもIoTを用いた実証実験など様々な開発業務に従事しました。業務では主にWebアプリケーションのバックエンド・フロントエンドの開発とAWSでの環境構築を担当しました。
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+      - Webアプリケーションの開発
+      - AWS上でのインフラの設計・構築
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  title: Projects
+  intro: >
+    個人プロジェクトの紹介。
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  assignments:
+  - title: Redux Starter Kit
+    link: https://github.com/shiopon01/redux-starter-kit
+    tagline: 小・中規模のプロジェクトに向けて設計されたReduxスターターキット
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: LINE Bot Frame
+    link: https://github.com/shiopon01/line-bot-frame
+    tagline: 迅速にLINE Botを作成するための AWS CloudFormation テンプレート
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Cloudformation Chain
+    link: https://github.com/shiopon01/cloudformation-chain
+    tagline: AWS CloudFormationでネストしない連続したスタックを作成
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+  title: Publications
+  intro: >
+    Nothing. しかしハンドブックを公開しています。
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  papers:
+  - title: handbook
+    link: https://github.com/shiopon01/handbook
+    authors: Shion Ueda
+    conference:
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+  title: Skills &amp; Proficiency
+  development:
+  - name: Amazon Web Service (Serverless, IoT)
+    level: 90%
+  - name: Docker & Docker Compose
+    level: 80%
+  - name: Git
+    level: 80%
+  - name: SQL & MySQL
+    level: 70%
+  - name: Agile & Scrum
+    level: 60%
+  - name: Kubernetes
+    level: 40%
+  programming:
+  - name: Node.js & Express, React, Vue
+    level: 90%
+  - name: Ruby & Ruby on Rails, Sinatra
+    level: 80%
+  - name: PHP & FuelPHP
+    level: 70%
+  - name: HTML / CSS
+    level: 60%
+  - name: Shell script
+    level: 50%
+  - name: Java
+    level: 40%
+  - name: Go & Gin
+    level: 30%
+  others:
+  - name: Photoshop & Processing pictures
+    level: 50%
+  - name: After Effects & Video production
+    level: 30%
+  - name: Procreate & Drawing pictures
+    level: 10%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
