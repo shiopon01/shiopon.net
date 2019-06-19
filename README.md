@@ -1,6 +1,6 @@
 # shiopon.net
 
-shiopon01 の簡単な履歴書です。
+[shiopon01](https://github.com/shiopon01) の履歴書。
 
 - [shiopon.net](https://shiopon.net)
 

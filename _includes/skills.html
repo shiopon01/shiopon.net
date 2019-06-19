@@ -12,48 +12,58 @@
 
   <div class="skillset">
     <div class="intro">
-      開発手法とツール
-    </div><!--//intro-->
+      主な開発手法とツール
+    </div>
+    <!--//intro-->
     {% for skill in skills.development %}
     <div class="item">
       <h3 class="level-title2">{{ skill.name }}</h3>
       <div class="level-bar2">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
-    </div><!--//item-->
+      </div>
+      <!--//level-bar-->
+    </div>
+    <!--//item-->
     {% endfor %}
   </div>
 
   <div class="skillset">
     <div class="intro">
-      プログラミング言語とフレームワーク
-    </div><!--//intro-->
+      主なプログラミング言語とフレームワーク
+    </div>
+    <!--//intro-->
     {% for skill in skills.programming %}
     <div class="item">
       <h3 class="level-title2">{{ skill.name }}</h3>
       <div class="level-bar2">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
-    </div><!--//item-->
+      </div>
+      <!--//level-bar-->
+    </div>
+    <!--//item-->
     {% endfor %}
   </div>
 
   <div class="skillset">
     <div class="intro">
       その他
-    </div><!--//intro-->
+    </div>
+    <!--//intro-->
     {% for skill in skills.others %}
     <div class="item">
       <h3 class="level-title2">{{ skill.name }}</h3>
       <div class="level-bar2">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
-    </div><!--//item-->
+      </div>
+      <!--//level-bar-->
+    </div>
+    <!--//item-->
     {% endfor %}
   </div>
 
-</section><!--//skills-section-->
+</section>
+<!--//skills-section-->
 {% endif %}

@@ -8,8 +8,8 @@ sidebar:
 
   # Profile information
   name: Shion Ueda
-  tagline: Software Developer
-  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Web Enginner
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: shio.0323@gmail.com
@@ -20,139 +20,124 @@ sidebar:
   github: shiopon01
   gitlab:
   bitbucket:
-  twitter: '@shiopon01'
+  twitter: "@shiopon01"
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
 
   languages:
-  - idiom: Japanese
-    level: Native
-  - idiom: English
-    level: 3 year old child level
+    - idiom: Japanese
+      level: Native
+    - idiom: English
+      level: 3 year old child level
 
   interests:
-  - item: 睡眠
-  - item: ビデオゲーム
-  - item: 音楽ゲーム（IIDX、SDVX）
-  - item: プログラミング
-  - item: 環境構築
-  - item: 映像制作
-  - item: イラスト制作
+    - item: AWS
+    - item: ビデオゲーム
+    - item: プログラミング
+    - item: 映画鑑賞
+    - item: 読書
+    - item: 睡眠
 
   other-links:
-  - item: Amazon ほしい物リスト
-    link: https://amzn.asia/2FclW18
-    icon: fab fa-amazon
-  - item: Patreon
-    link:
-    icon: fab fa-patreon
-  - item: ブログ
-    link: https://shiopon.hatenablog.jp
-    icon: fas fa-newspaper
-  - item: Steam
-    link: https://steamcommunity.com/id/shiopon01
-    icon: fab fa-steam
+    - item: Amazon ほしい物リスト
+      link: https://amzn.asia/2FclW18
+      icon: fab fa-amazon
+    - item: Patreon
+      link: https://www.patreon.com/shiopon01
+      icon: fab fa-patreon
+    - item: ブログ
+      link: https://shiopon.hatenablog.jp
+      icon: fas fa-newspaper
+    - item: Steam
+      link: https://steamcommunity.com/id/shiopon01
+      icon: fab fa-steam
 
 career-profile:
   title: Career Profile
   summary: |
-    1995年大阪府大阪市生まれ。2017年3月に大阪情報コンピュータ専門学校総合情報メディア学科ネットワークセキュリティ専攻（4年制）を卒業後、2017年に株式会社ブリリアントサービスに入社。
+    1995年大阪府大阪市生まれ。2017年3月に大阪情報コンピュータ専門学校総合情報メディア学科ネットワークセキュリティ専攻（4年制）を卒業後、2017年にコグニザントジャパン株式会社（旧：株式会社ブリリアントサービス）に入社。
 
-    会社ではWebアプリケーション作成を中心とした様々な企業からの請負案件に携わり、同時にAWS上でのインフラの設計・構築等も担いました。また、エンジニアが働きやすい環境と社内環境の改善を目指し、積極的な上長への相談・提案を普段から行っています。
+    Webアプリケーション作成を中心として様々な企業からの請負案件に携わり、同時にAWS上でのインフラの設計・構築等も担いました。また、エンジニアが働きやすい環境と社内環境の改善を目指し、積極的な相談・提案を日頃から行っています。
 
 education:
-- degree: 高度専門士
-  university: 大阪情報コンピュータ専門学校
-  time: Apr 2013 - Mar 2017
-  details:
+  - degree: 高度専門士
+    university: 大阪情報コンピュータ専門学校
+    time: Apr 2013 - Mar 2017
+    details: |
+      ネットワークセキュリティ専攻
 
 experiences:
-  intro: >
-    降順に並びます。
-
   assignments:
-  - role: Software Enginner
-    time: Jan 2019 - Present
-    company: Cognizant Japan KK., Japan
-    link: https://www.cognizant.com/ja-jp
-    details: |
+    - role: Software Enginner
+      time: Apr 2017 - Present
+      company: コグニザントジャパン株式会社（旧：株式会社ブリリアントサービス）
+      link: https://www.cognizant.com/ja-jp/
+      details: |
+        商用や大規模イベント用のWebアプリケーションの開発、IoTを用いた実証実験などの開発業務に従事しました。主にWebアプリケーションのバックエンド・フロントエンドの開発と、AWSでのインフラ環境の設計・構築を担当しました。
 
-  - role: Software Enginner
-    time: Apr 2017 - Dec 2018
-    company: BrilliantService CO.,LTD., Japan
-    link: http://www.brilliantservice.co.jp
-    details: |
-      サーバーチームの一員として商用アプリ、大規模イベント用アプリ、他にもIoTを用いた実証実験など様々な開発業務に従事しました。業務では主にWebアプリケーションのバックエンド・フロントエンドの開発とAWSでの環境構築を担当しました。
-
-      - Webアプリケーションの開発
-      - AWS上でのインフラの設計・構築
+        - Webアプリケーションの開発（フロントエンド・バックエンド）
+        - AWS上でのインフラの設計・構築
 
 projects:
   title: Projects
-  intro: >
-    個人プロジェクトの紹介。
-
+  intro:
   assignments:
-  - title: Redux Starter Kit
-    link: https://github.com/shiopon01/redux-starter-kit
-    tagline: 小・中規模のプロジェクトに向けて設計されたReduxスターターキット
+    - title: LINE Bot Frame
+      link: https://github.com/shiopon01/line-bot-frame
+      tagline: 迅速にLINE Botを作成するための AWS CloudFormation テンプレート
 
-  - title: LINE Bot Frame
-    link: https://github.com/shiopon01/line-bot-frame
-    tagline: 迅速にLINE Botを作成するための AWS CloudFormation テンプレート
+    - title: Redux Starter Kit
+      link: https://github.com/shiopon01/redux-starter-kit
+      tagline: 小・中規模のプロジェクトに向けて設計されたReduxスターターキット
 
-  - title: Cloudformation Chain
-    link: https://github.com/shiopon01/cloudformation-chain
-    tagline: AWS CloudFormationでネストしない連続したスタックを作成
+    - title: Cloudformation Chain
+      link: https://github.com/shiopon01/cloudformation-chain
+      tagline: AWS CloudFormationでネストしない連続したスタックを作成
 
 publications:
   title: Publications
-  intro: >
-    Nothing. しかしハンドブックを公開しています。
-
+  intro:
   papers:
-  - title: handbook
-    link: https://github.com/shiopon01/handbook
-    authors: Shion Ueda
-    conference:
+    - title: Shiopon Labo（はてなブログ）
+      link: https://shiopon.hatenablog.jp
+      authors:
+      conference:
+    - title: handbook（GitHub）
+      link: https://github.com/shiopon01/handbook
+      authors:
+      conference:
 
 skills:
   title: Skills &amp; Proficiency
   development:
-  - name: Amazon Web Service (Serverless, IoT)
-    level: 90%
-  - name: Docker & Docker Compose
-    level: 80%
-  - name: Git
-    level: 80%
-  - name: SQL & MySQL
-    level: 70%
-  - name: Agile & Scrum
-    level: 60%
-  - name: Kubernetes
-    level: 40%
+    - name: Amazon Web Service (Serverless, IoT)
+      level: 90%
+    - name: Agile & Scrum
+      level: 80%
+    - name: Docker
+      level: 80%
+    - name: SQL & MySQL
+      level: 70%
+    - name: Kubernetes
+      level: 30%
   programming:
-  - name: Node.js & Express, React, Vue
-    level: 90%
-  - name: Ruby & Ruby on Rails, Sinatra
-    level: 80%
-  - name: PHP & FuelPHP
-    level: 70%
-  - name: HTML / CSS
-    level: 60%
-  - name: Shell script
-    level: 50%
-  - name: Java
-    level: 40%
-  - name: Go & Gin
-    level: 30%
+    - name: Node.js (TypeScript) & Express, React, Vue
+      level: 90%
+    - name: Ruby & Ruby on Rails, Sinatra
+      level: 80%
+    - name: PHP & FuelPHP
+      level: 80%
+    - name: Go
+      level: 40%
+    - name: Erlang
+      level: 30%
   others:
-  - name: Photoshop & Processing pictures
-    level: 50%
-  - name: After Effects & Video production
-    level: 30%
-  - name: Procreate & Drawing pictures
-    level: 10%
+    - name: Photoshop & Processing pictures
+      level: 50%
+    - name: After Effects & Video production
+      level: 30%
+    - name: Procreate & Drawing pictures
+      level: 10%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

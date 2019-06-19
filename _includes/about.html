@@ -1,18 +1,18 @@
 <div class="contact-container container-block">
   <h2 class="container-block-title">
-      Other links
+    Other links
   </h2>
 
   {% assign other-links = site.data.data.sidebar.other-links %}
   {% if other-links %}
-    <ul class="list-unstyled contact-list">
-      {% for other in other-links %}
-        <li>
-          <i class="{{ other.icon }}"></i>
-          <a href="{{ other.link }}" target="_blank">{{ other.item }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+  <ul class="list-unstyled contact-list">
+    {% for other in other-links %}
+    <li>
+      <i class="{{ other.icon }}"></i>
+      <a href="{{ other.link }}" target="_blank">{{ other.item }}</a>
+    </li>
+    {% endfor %}
+  </ul>
   {% endif %}
 </div>
-
+<!--//About-->
